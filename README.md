@@ -16,6 +16,8 @@ A reusable Codex skill for scanning repositories for likely secrets and optional
 - `references/secret-scan-checklist.md`: follow-up checklist for suspicious repositories
 - `agents/openai.yaml`: UI metadata for Codex skill discovery
 
+For Chinese instructions, see [README_zh.md](./README_zh.md).
+
 ## Basic usage
 
 Scan a repository:
@@ -41,3 +43,4 @@ python ".\scripts\security_check.py" --repo "D:\path\to\repo" --install-hook
 - pattern-based scanning catches many accidental leaks, but it is not a substitute for full security review
 - local hooks only protect the repositories where they are installed
 - if a real secret was already committed, rotate it and consider cleaning git history
+
