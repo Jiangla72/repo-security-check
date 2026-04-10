@@ -1,0 +1,4 @@
+﻿interface:
+  display_name: "Repo Security Check"
+  short_description: "Scan repositories for likely secrets and install pre-commit checks"
+  default_prompt: "Use $repo-security-check to scan this repository for secrets and install a pre-commit safety check if needed."
